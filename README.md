@@ -18,8 +18,8 @@ An early-stage NestJS starter for building a Kafka-backed service, with local Ka
 
 ```bash
 docker compose up -d      # start Kafka + Zookeeper
-yarn install
-yarn start:dev
+bun install
+bun run start:dev
 ```
 
 API: http://localhost:3000
